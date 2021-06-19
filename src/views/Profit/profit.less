@@ -1,0 +1,112 @@
+@background: #121212;
+@zhucoloe: #35ae57;
+
+.home_content {
+  padding: 45px 0.3rem 0;
+  .headline {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    position: relative;
+
+    span {
+      &:first-child {
+        display: inline-block;
+        position: absolute;
+        top: 13px;
+        width: 4px;
+        height: 14px;
+        background-color: @zhucoloe;
+        border-radius: 2px;
+      }
+
+      &:last-child {
+        margin-left: 13px;
+      }
+    }
+  }
+}
+
+// 总算力
+.managed_force {
+  width: 100%;
+  height: 90px;
+  margin-top: 20px;
+  background-color: @background;
+  font-size: 16px;
+
+  .managed_force_con {
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+// XCH收益
+.xch_earnings {
+  width: 100%;
+  height: 190px;
+  margin-top: 20px;
+
+  .xch_earnings_con {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .xch_item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .xch_item_title {
+      color: #999999;
+      font-size: 12px;
+
+      img {
+        width: 13px;
+        height: 13px;
+        vertical-align: top;
+      }
+    }
+
+    .xch_money {
+      color: #35ae57;
+      font-size: 14px;
+    }
+  }
+}
+
+// 提币
+.mention_money {
+  margin-top: 10px;
+}
+
+// 资产
+.asset {
+  margin-top: 10px;
+}
+
+.asset_con {
+  img {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 0 10px;
+
+    span {
+      float: right;
+      color: #999999;
+    }
+  }
+}
